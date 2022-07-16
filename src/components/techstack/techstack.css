@@ -1,0 +1,180 @@
+#techstack {
+  height: 100vh;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-around;
+}
+
+.React,
+.Redux,
+.Javascript,
+.Rails,
+.HTML5,
+.CSS3,
+.Ruby,
+.SCSS,
+.MongoDB,
+.Mongoose,
+.ExpressJS,
+.PostgreSQL,
+.Heroku,
+.SQL,
+.SQLite3,
+.Webpack,
+.jQuery,
+.Git,
+.AWS {
+  background-color: var(--color-white);
+  color: var(--color-black);
+  height: 100px;
+  width: 100px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.none {
+  height: 100px;
+  width: 100px;
+}
+
+.React > span,
+.Redux > span,
+.Javascript > span,
+.Rails > span,
+.HTML5 > span,
+.CSS3 > span,
+.Ruby > span,
+.SCSS > span,
+.MongoDB > span,
+.Mongoose > span,
+.ExpressJS > span,
+.PostgreSQL > span,
+.Heroku > span,
+.SQL > span,
+.SQLite3 > span,
+.Webpack > span,
+.jQuery > span,
+.Git > span,
+.AWS > span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.white-div {
+  height: 9px;
+  width: 50px;
+  background-color: var(--color-white);
+  position: relative;
+  z-index: 1;
+}
+
+.Javascript > span {
+  position: relative;
+  top: -6px;
+}
+
+.Rails > span {
+  position: relative;
+  top: -18px;
+}
+
+.Mongoose > span {
+  position: relative;
+  top: -20px;
+}
+
+.ExpressJS > span {
+  position: relative;
+  top: 5px;
+}
+
+.SQL > span {
+  position: relative;
+  top: 5px;
+}
+
+.React-icon {
+  color: rgb(97, 219, 251);
+}
+
+.Redux-icon {
+  color: rgb(118, 74, 188);
+}
+
+.Javascript-icon {
+  color: rgb(240, 219, 79);
+  background-color: #323330;
+  position: relative;
+  top: 9px;
+}
+
+.Rails-icon {
+  color: red;
+  position: relative;
+  top: 9px;
+}
+
+.HTML5-icon {
+  color: #e34f26;
+}
+
+.CSS3-icon {
+  color: rgb(38, 77, 228);
+}
+
+.Ruby-icon {
+  color: red;
+}
+
+.SCSS-icon {
+  height: 50px;
+  width: 50px;
+  margin-bottom: 0.2rem;
+}
+
+.MongoDB-icon {
+  color: #4DB33D;
+}
+
+.PostgreSQL-icon {
+  color: #0064a5;
+}
+
+.Heroku-icon {
+  color: #6762A6;
+  background-color: #C9C3E6;
+}
+
+.SQL-icon {
+  height: 50px;
+  width: 50px;
+}
+
+.SQLite3-icon {
+  color:rgb(111, 139, 248);
+}
+
+.Webpack-icon {
+  color: skyblue;
+}
+
+.jQuery-icon {
+  color:rgb(1, 77, 147);
+}
+
+.Git-icon {
+  color: #F1502F;
+}
+
+.AWS-icon {
+  color: var(--color-white);
+  background-color: var(--color-bg-variant);
+  position: relative;
+  top: 9px;
+}
