@@ -4,7 +4,8 @@
 
 .tech {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .tech__container {
@@ -181,4 +182,11 @@
   background-color: var(--color-bg-variant);
   position: relative;
   top: 9px;
+}
+
+/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
+@media screen and (max-width: 600px) {
+  .tech {
+    gap: 1rem;
+  }
 }

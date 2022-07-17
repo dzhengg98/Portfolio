@@ -1,3 +1,7 @@
+#contact {
+  height: 100vh;
+}
+
 #contact > h2 {
   margin-bottom: 5rem;
 }
@@ -72,6 +76,9 @@ input::placeholder, textarea::placeholder {
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
+  #contact {
+    height: 130vh;
+  }
   .container.contact__container {
     width: var(--container-width-sm);
   }
