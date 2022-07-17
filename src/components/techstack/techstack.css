@@ -35,7 +35,7 @@
 .jQuery,
 .Git,
 .AWS {
-  background-color: var(--color-white);
+  background-color: rgb(226 230 234 / 80%);
   color: var(--color-black);
   height: 100px;
   width: 100px;
@@ -76,11 +76,12 @@
 }
 
 .white-div {
-  height: 9px;
+  height: 8px;
   width: 50px;
   background-color: var(--color-white);
   position: relative;
   z-index: 1;
+  top: 1px;
 }
 
 .Javascript > span {
