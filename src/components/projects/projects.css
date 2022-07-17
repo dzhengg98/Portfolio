@@ -1,6 +1,11 @@
 #projects {
   height: 100vh;
 }
+
+#projects > h2 {
+  margin-bottom: 5rem;
+}
+
 .project__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
