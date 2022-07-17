@@ -2,6 +2,10 @@
   height: 100vh;
 }
 
+#techstack > h5 {
+  padding-top: 3rem;
+}
+
 .tech {
   display: flex;
   justify-content: center;
@@ -184,7 +188,6 @@
   top: 9px;
 }
 
-/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   .tech {
     gap: 1rem;

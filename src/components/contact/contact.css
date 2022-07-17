@@ -6,6 +6,10 @@
   margin-bottom: 5rem;
 }
 
+#contact > h5 {
+  padding-top: 3rem;
+}
+
 .container.contact__container {
   width: 58%;
   display: grid;
@@ -30,7 +34,8 @@
 }
 
 .contact__option:hover {
-  background: transparent;
+  background: rgba(0, 0, 0, .2);
+  color: var(--color-black);
   border-color: var(--color-primary-variant);
 }
 
@@ -70,7 +75,13 @@ input::placeholder, textarea::placeholder {
 @media screen and (max-width: 1024px) {
   .container.contact__container {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1rem;
+  }
+  #contact > h2 {
+    margin-bottom: 2rem;
+  }
+  .contact__options {
+    gap: 0;
   }
 }
 

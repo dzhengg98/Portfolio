@@ -10,7 +10,6 @@ header {
   position: relative;
 }
 
-/* ======================== CTA ====================== */
 .cta {
   margin-top: 2.5rem;
   display: flex;
@@ -18,7 +17,6 @@ header {
   justify-content: center;
 }
 
-/* ======================== HEADER SOCIALS ====================== */
 .header__socials {
   display: flex;
   flex-direction: column;
@@ -55,9 +53,8 @@ header {
   }
 }
 
-/* ======================== ME ====================== */
 .me {
-  background-image: linear-gradient(338deg, #f7f7f7 0%, #e3e3ff 50%, #c8c8c8 100%);
+  background-image: linear-gradient(178deg, #f7f7f75c 0%, #e3e3ff77 10%, transparent 100%);
   width: 22rem;
   height: 28rem;
   position: absolute;
@@ -99,7 +96,6 @@ header {
   color: var(--color-primary-variant);
 }
 
-/* ======================== SCROLL DOWN ====================== */
 .scroll__down {
   position: absolute;
   right: -2.3rem;
@@ -109,14 +105,12 @@ header {
   font-size: 0.9rem;
 }
 
-/* ================= MEDIA QUERIES (MEDIUM DEVICES) ================= */
 @media screen and (max-width: 1024px) {
   header {
     height: 100vh;
   }
 }
 
-/* ================= MEDIA QUERIES (SMALL DEVICES) ================= */
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
