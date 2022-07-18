@@ -54,7 +54,7 @@ a > .nav-icon-container {
 }
 
 nav a:hover {
-  color: var(--color-primary-variant);
+  color: var(--color-bg);
 }
 
 nav a.active {

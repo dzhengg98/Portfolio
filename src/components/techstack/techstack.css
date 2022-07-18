@@ -76,12 +76,11 @@
 }
 
 .white-div {
-  height: 8px;
+  height: 9px;
   width: 50px;
   background-color: var(--color-white);
   position: relative;
   z-index: 1;
-  top: 1px;
 }
 
 .Javascript > span {
